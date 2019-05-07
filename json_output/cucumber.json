@@ -1,0 +1,795 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Remove Fare Product from shopping Cart",
+        "description": "",
+        "id": "buy-fare-product-with-stored-value.;remove-fare-product-from-shopping-cart;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9120886467,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user should be on home page",
+            "match": {
+              "location": "Registration.user_should_be_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4251361800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter aayushptd1 and Abc@12345 and successfully logged in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aayushptd1",
+                  "offset": 11
+                },
+                {
+                  "val": "Abc@12345",
+                  "offset": 26
+                }
+              ],
+              "location": "Registration.user_enter_and_and_successfully_logged_in(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 129419785,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to buyacard",
+            "match": {
+              "location": "Registration.user_navigate_to_buyacard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 788766127,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user select fare product and enterMayank",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mayank",
+                  "offset": 34
+                }
+              ],
+              "location": "Registration.user_select_fare_product_and_entername(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47747820,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verfiy in add to cart",
+            "match": {
+              "location": "Registration.user_verfiy_in_add_to_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2198652037,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user remove the product",
+            "match": {
+              "location": "Registration.user_remove_the_remove_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 220870813,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "Registration.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Clear Fare product from buyFareProduct",
+        "description": "",
+        "id": "buy-fare-product-with-stored-value.;clear-fare-product-from-buyfareproduct;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6941528744,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user should be on home page",
+            "match": {
+              "location": "Registration.user_should_be_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4265258789,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enter aayushptd1 and Abc@12345 and successfully logged in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aayushptd1",
+                  "offset": 11
+                },
+                {
+                  "val": "Abc@12345",
+                  "offset": 26
+                }
+              ],
+              "location": "Registration.user_enter_and_and_successfully_logged_in(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1105083905,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user navigate to shopbycategory and select BuyFareProduct",
+            "match": {
+              "location": "Registration.user_navigate_to_shopbycategory_and_select_buyfareproduct()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3638983862,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user select card details",
+            "match": {
+              "location": "Registration.user_select_card_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 57564140,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user clear all details",
+            "match": {
+              "location": "Registration.user_clear_all_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 240050046,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "close the browser",
+            "match": {
+              "location": "Registration.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 41,
+        "name": "cancel fare product from shopping",
+        "description": "",
+        "id": "buy-fare-product-with-stored-value.;cancel-fare-product-from-shopping;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7880711727,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user should be on home page",
+            "match": {
+              "location": "Registration.user_should_be_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4267583217,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user enter aayushptd1 and Abc@12345 and successfully logged in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aayushptd1",
+                  "offset": 11
+                },
+                {
+                  "val": "Abc@12345",
+                  "offset": 26
+                }
+              ],
+              "location": "Registration.user_enter_and_and_successfully_logged_in(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1108139974,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user navigate to shopbycategory and select BuyFareProduct",
+            "match": {
+              "location": "Registration.user_navigate_to_shopbycategory_and_select_buyfareproduct()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3672304366,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user select card details",
+            "match": {
+              "location": "Registration.user_select_card_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51441484,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user verfiy in add to cart",
+            "match": {
+              "location": "Registration.user_verfiy_in_add_to_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11378539186,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user proceed to pay for shopping",
+            "match": {
+              "location": "Registration.user_proceed_to_pay_for_shopping()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 55101497,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user cancel payment",
+            "match": {
+              "location": "Registration.user_enter_cancel_payment()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 157235998,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "close the browser",
+            "match": {
+              "location": "Registration.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 56,
+        "name": "Buy fare product with stored value",
+        "description": "",
+        "id": "buy-fare-product-with-stored-value.;buy-fare-product-with-stored-value;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6218712545,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user should be on home page",
+            "match": {
+              "location": "Registration.user_should_be_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4255065681,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user enter aayushptd1 and Abc@12345 and successfully logged in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aayushptd1",
+                  "offset": 11
+                },
+                {
+                  "val": "Abc@12345",
+                  "offset": 26
+                }
+              ],
+              "location": "Registration.user_enter_and_and_successfully_logged_in(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1103474894,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user navigate to shopbycategory and select BuyFareProduct",
+            "match": {
+              "location": "Registration.user_navigate_to_shopbycategory_and_select_buyfareproduct()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3624651494,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user select card details",
+            "match": {
+              "location": "Registration.user_select_card_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 49207499,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user verfiy in add to cart",
+            "match": {
+              "location": "Registration.user_verfiy_in_add_to_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11411445342,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user proceed to pay for shopping",
+            "match": {
+              "location": "Registration.user_proceed_to_pay_for_shopping()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3426620226,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user Enter paytm 7777777777 489871 details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7777777777",
+                  "offset": 17
+                },
+                {
+                  "val": "489871",
+                  "offset": 28
+                }
+              ],
+              "location": "Registration.user_enter_paytm_details(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@placeholder\u003d\"Enter CVV\"]\"}\n  (Session info: chrome\u003d74.0.3729.131)\n  (Driver info: chromedriver\u003d74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.8.1\u0027, revision: \u00276e95a6684b\u0027, time: \u00272017-12-01T18:33:54.468Z\u0027\nSystem info: host: \u0027DLDT-1147\u0027, ip: \u0027172.30.64.170\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_161\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\\Users\\MAYANK~1.SAX\\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53551}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}\nSession ID: 09314564d332edf12719a2e7f0d76034\n*** Element info: {Using\u003dxpath, value\u003d//*[@placeholder\u003d\"Enter CVV\"]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy13.sendKeys(Unknown Source)\r\n\tat com.qa.ABT.StepDefinition.Registration.user_enter_number(Registration.java:264)\r\n\tat ✽.user Enter 123 489871 number(D:/nec/Automation/BDD_Framework-master/BDD_Framework-master/src/main/java/com/qa/ABT/Feature/Buy_Fare_Product.feature:51)\r\n",
+              "duration": 2480500617,
+              "status": "failed"
+            },
+            "line": 51,
+            "name": "user Enter 123 489871 number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 11
+                },
+                {
+                  "val": "489871",
+                  "offset": 15
+                }
+              ],
+              "location": "Registration.user_enter_number(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "close the browser",
+            "match": {
+              "location": "Registration.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Buy fare product with stored value.",
+    "description": "",
+    "id": "buy-fare-product-with-stored-value.",
+    "keyword": "Feature",
+    "uri": "D:/nec/Automation/BDD_Framework-master/BDD_Framework-master/src/main/java/com/qa/ABT/Feature/Buy_Fare_Product.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Reissue Card with valid card details",
+        "description": "",
+        "id": "mycards;reissue-card-with-valid-card-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10475950617,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user should be on home page",
+            "match": {
+              "location": "Registration.user_should_be_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4290584115,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter aayushptd1 and Abc@12345 and successfully logged in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aayushptd1",
+                  "offset": 11
+                },
+                {
+                  "val": "Abc@12345",
+                  "offset": 26
+                }
+              ],
+              "location": "Registration.user_enter_and_and_successfully_logged_in(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 608127504,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to mycards page from cardmanagement",
+            "match": {
+              "location": "Registration.user_navigate_to_mycards_page_from_cardmanagement()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1505840966,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Reissue Card and enter Nec Tecnolohies India,Building number 9, SEZ, Sector 135 details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nec Tecnolohies India,Building number 9, SEZ, Sector 135",
+                  "offset": 28
+                }
+              ],
+              "location": "Registration.user_reissue_card_and_enter_details(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d74.0.3729.131)\n  (Driver info: chromedriver\u003d74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.8.1\u0027, revision: \u00276e95a6684b\u0027, time: \u00272017-12-01T18:33:54.468Z\u0027\nSystem info: host: \u0027DLDT-1147\u0027, ip: \u0027172.30.64.170\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_161\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\\Users\\MAYANK~1.SAX\\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53614}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}\nSession ID: a6baf777ec228b42dc2dfcc489b84db0\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)\r\n\tat sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy13.sendKeys(Unknown Source)\r\n\tat com.qa.ABT.StepDefinition.Registration.user_submit_details(Registration.java:312)\r\n\tat ✽.user submit details and enter 123456(D:/nec/Automation/BDD_Framework-master/BDD_Framework-master/src/main/java/com/qa/ABT/Feature/My_Cards.feature:7)\r\n",
+              "duration": 1094582815,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user submit details and enter 123456",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 30
+                }
+              ],
+              "location": "Registration.user_submit_details(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "close the browser",
+            "match": {
+              "location": "Registration.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Clear Reissue Card details",
+        "description": "",
+        "id": "mycards;clear-reissue-card-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10734229512,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should be on home page",
+            "match": {
+              "location": "Registration.user_should_be_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4293630269,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enter aayushptd1 and Abc@12345 and successfully logged in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aayushptd1",
+                  "offset": 11
+                },
+                {
+                  "val": "Abc@12345",
+                  "offset": 26
+                }
+              ],
+              "location": "Registration.user_enter_and_and_successfully_logged_in(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 602186031,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user navigate to mycards page from cardmanagement",
+            "match": {
+              "location": "Registration.user_navigate_to_mycards_page_from_cardmanagement()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1555205609,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user Reissue Card and enter Nec Tecnolohies India,Building number 9, SEZ, Sector 135 details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nec Tecnolohies India,Building number 9, SEZ, Sector 135",
+                  "offset": 28
+                }
+              ],
+              "location": "Registration.user_reissue_card_and_enter_details(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 49563854,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clear details",
+            "match": {
+              "location": "Registration.user_clear_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 309263367,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "close the browser",
+            "match": {
+              "location": "Registration.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Mycards",
+    "description": "",
+    "id": "mycards",
+    "keyword": "Feature",
+    "uri": "D:/nec/Automation/BDD_Framework-master/BDD_Framework-master/src/main/java/com/qa/ABT/Feature/My_Cards.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Search Transaction with all search criteria",
+        "description": "",
+        "id": "searchtransaction;search-transaction-with-all-search-criteria;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8748448904,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user should be on home page",
+            "match": {
+              "location": "Registration.user_should_be_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4247089733,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter aayushptd1 and Abc@12345 and successfully logged in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aayushptd1",
+                  "offset": 11
+                },
+                {
+                  "val": "Abc@12345",
+                  "offset": 26
+                }
+              ],
+              "location": "Registration.user_enter_and_and_successfully_logged_in(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 622254352,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to mytransaction in account details",
+            "match": {
+              "location": "Registration.user_navigate_to_mytransaction_in_account_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1130267409,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter the search criteria and search the transactions",
+            "match": {
+              "location": "Registration.user_enter_the_search_criteria_and_search_the_transactions()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3050234201,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user print all the TransactionID",
+            "match": {
+              "location": "Registration.user_print_all_the_transactionid()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 147472560,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close the browser",
+            "match": {
+              "location": "Registration.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "SearchTransaction",
+    "description": "",
+    "id": "searchtransaction",
+    "keyword": "Feature",
+    "uri": "D:/nec/Automation/BDD_Framework-master/BDD_Framework-master/src/main/java/com/qa/ABT/Feature/SearchTransaction.feature",
+    "tags": []
+  }
+]
